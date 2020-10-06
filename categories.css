@@ -5,10 +5,8 @@
 
 body {
     text-align: center;
-    background: linear-gradient(255deg, 
-    rgba(253, 184, 86, 1) 0%,
-    rgba(255, 248, 114, 1) 23%,
-    rgba(65, 221, 253, 1) 100%);
+    background: rgb(253, 184, 86);
+    background: linear-gradient(255deg, rgba(253, 184, 86, 1) 0%, rgba(255, 248, 114, 1) 23%, rgba(65, 221, 253, 1) 100%);
 }
 
 p{
