@@ -14,14 +14,14 @@
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,800;1,300;1,600&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="font-awesome.min.css">
     <script src="https://kit.fontawesome.com/867a2c068e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="landing.css">
 
-    <!-- Stylesheet for Order Page -->
-    <link rel='stylesheet' href='https://s3-us-west-2.amazonaws.com/s.cdpn.io/164071/drift-basic.css'>
-    <link rel="stylesheet" href="orderPage.css">
-    <title>Order Page</title>
+    <!-- My Stylesheet for Categories -->
+    <link rel="stylesheet" href="categories.css">
+    <title>Categories</title>
 </head>
 
 <body>
@@ -155,154 +155,385 @@
     </header>
 
     <!-- Giving some padding so that the content does not hide under the nav bar -->
-    <div style="padding-top: 250px;"></div>
+    <div style="padding-top: 200px;"></div>
 
-    <!-- for the zoomed image -->
-    <div class="zoomed" id="productDetails"></div>
-
-    <div class="row row2 main">
-        <div class="container container1 col-lg-4 imageContainer">
-            <!-- Pass image source in src and zoomed image source in data-zoom, it can be same -->
-            <img src="CategoryImages/TV1.png" data-zoom="CategoryImages/TV1.png" alt="Product Image" id="productImage"
-                onmouseover="showZoomedDiv()" onmouseout="removeZoomedDiv()">
+    <!-- Smart TV section from here -->
+    <h1 id="smartTv">SMART TVs</h1>
+    <div class="row eachSection">
+        <div class="container1 col-lg-3 col-md-5" onclick="window.open('#','mywindow');" style="cursor: pointer;">
+            <img src="CategoryImages/TV2.png" alt="SMART TV IMAGE" class="category-image">
+            <p>Android + CEITUS</p>
+            <p>Built-in Speakers</p>
+            <p>8GB internal memory</p>
+            <p>1GB RAM</p>
+            <p>SIZE - 165 cm</p>
+            <p>UHD 3840 x 2160 Resolution</p>
         </div>
 
+        <div class="container1 col-lg-3 col-md-5" onclick="window.open('#','mywindow');" style="cursor: pointer;">
+            <img src="CategoryImages/TV2.png" alt="SMART TV IMAGE" class="category-image">
+            <p>Android + CEITUS</p>
+            <p>Built-in Speakers</p>
+            <p>8GB internal memory</p>
+            <p>1GB RAM</p>
+            <p>SIZE - 165 cm</p>
+            <p>UHD 3840 x 2160 Resolution</p>
+        </div>
 
-        <div class="container container1 col-lg-8" id="">
+        <div class="container1 col-lg-3 col-md-5" onclick="window.open('#','mywindow');" style="cursor: pointer;">
+            <img src="CategoryImages/TV2.png" alt="SMART TV IMAGE" class="category-image">
+            <p>Android + CEITUS</p>
+            <p>Built-in Speakers</p>
+            <p>8GB internal memory</p>
+            <p>1GB RAM</p>
+            <p>SIZE - 165 cm</p>
+            <p>UHD 3840 x 2160 Resolution</p>
+        </div>
 
-            <h1>TLD-5510 SMART 4K LED TV 124 cm (49 Inches) BLACK (2019 MODEL)</h1>
-            <span>BRAND: </span><a href="https://vaibhav121121.github.io/Astorianze-Category/landing.html" class="brand"
-                target="_blank">Astorianz</a>
-            <h1><span style="font-family:Verdana, Geneva, Tahoma, sans-serif;">₹</span>45,999</h1>
-            <br>
+        <div class="container1 col-lg-3 col-md-5" onclick="window.open('#','mywindow');" style="cursor: pointer;">
+            <img src="CategoryImages/TV2.png" alt="SMART TV IMAGE" class="category-image">
+            <p>Android + CEITUS</p>
+            <p>Built-in Speakers</p>
+            <p>8GB internal memory</p>
+            <p>1GB RAM</p>
+            <p>SIZE - 165 cm</p>
+            <p>UHD 3840 x 2160 Resolution</p>
+        </div>
 
+        <div class="container1 col-lg-3 col-md-5" onclick="window.open('#','mywindow');" style="cursor: pointer;">
+            <img src="CategoryImages/TV2.png" alt="SMART TV IMAGE" class="category-image">
+            <p>Android + CEITUS</p>
+            <p>Built-in Speakers</p>
+            <p>8GB internal memory</p>
+            <p>1GB RAM</p>
+            <p>SIZE - 165 cm</p>
+            <p>UHD 3840 x 2160 Resolution</p>
+        </div>
 
-            <ul class="featuresMain">
-                <li class="productFeatures">Resolution: 4K Ultra HD (3840 x 2160p) | Refresh Rate: 50 hertz</li>
-                <li class="productFeatures">Connectivity: 3 HDMI ports to connect set top box, Blu Ray players, gaming
-                    console | 3 USB ports to connect hard drives and other USB devices</li>
-                <li class="productFeatures">Smart TV Features : Andoird TV: World of endless entertainment | 4K
-                    X-Reality Pro: Best clarity ever</li>
-                <li class="productFeatures">Sound : 24 Watts Output</li>
-                <li class="productFeatures">Warranty Information : 2 year warranty provided by Astorianz from date of
-                    purchase</li>
-                <li class="productFeatures">Installation: For requesting installation/wall mounting/demo of this product
-                    once delivered, Contact_us on: [ ] and provide product's model name as well as seller's
-                    details mentioned on the invoice</li>
-                <li class="productFeatures">Easy Returns: This product is eligible for replacement within 10 days of
-                    delivery in case of any product defects, damage or features not matching the description provided
-                </li>
-            </ul>
-            <a href="#allDetail" class="hover-1">See all features</a> <br>
-            <div class="orderButton">
-                <a href="#" class="btn btn-sm animated-button victoria-one">ADD TO CART</a>
-            </div>
-            <div class="orderButton">
-                <a href="#" class="btn btn-sm animated-button victoria-two">BUY NOW</a>
-            </div>
+        <div class="container1 col-lg-3 col-md-5" onclick="window.open('#','mywindow');" style="cursor: pointer;">
+            <img src="CategoryImages/TV2.png" alt="SMART TV IMAGE" class="category-image">
+            <p>Android + CEITUS</p>
+            <p>Built-in Speakers</p>
+            <p>8GB internal memory</p>
+            <p>1GB RAM</p>
+            <p>SIZE - 165 cm</p>
+            <p>UHD 3840 x 2160 Resolution</p>
         </div>
     </div>
 
-    <div class="row row2 eachSection">
-        <div class="container2 col-lg-2 col-md-4 col-sm-6 col-6 hover-1" onclick="window.open('#','mywindow');"
-            style="cursor: pointer;">
-            <img src="CategoryImages/TV2.png" alt="SMART TV IMAGE" class="category-image">
-            <a href="#">TLD-5510 SMART 4K LED TV 124 cm (49 Inches) BLACK (2019 MODEL)</a>
-            <h2 class="price">
-                <span style="font-family:Verdana, Geneva, Tahoma, sans-serif;">₹</span>49,999
-            </h2>
+    <!-- LED TV section from here -->
+    <h1 id="ledTv">LED TVs</h1>
+    <div class="row eachSection">
+        <div class="container1 col-lg-3 col-md-5" onclick="window.open('#','mywindow');" style="cursor: pointer;">
+            <img src="CategoryImages/TV1.png" alt="LED TV IMAGE" class="category-image">
+            <p>Remote Controlled</p>
+            <p>BUILT IN SPEAKERS = 10W x 2</p>
+            <p>CONTRAST RATIO = 1000:1</p>
+            <p>RESOLUTION = 1366 x 1080</p>
+            <p>SIZE = 60 cm</p>
+            <p>VGA = 1</p>
         </div>
 
-        <div class="container2 col-lg-2 col-md-4 col-sm-6 col-6 hover-1" onclick="window.open('#','mywindow');"
-            style="cursor: pointer;">
-            <img src="CategoryImages/TV2.png" alt="SMART TV IMAGE" class="category-image">
-            <a href="#">TLD-5510 SMART 4K LED TV 124 cm (49 Inches) BLACK (2019 MODEL)</a>
-            <h2 class="price">
-                <span style="font-family:Verdana, Geneva, Tahoma, sans-serif;">₹</span>49,999
-            </h2>
+        <div class="container1 col-lg-3 col-md-5" onclick="window.open('#','mywindow');" style="cursor: pointer;">
+            <img src="CategoryImages/TV1.png" alt="LED TV IMAGE" class="category-image">
+            <p>Remote Controlled</p>
+            <p>BUILT IN SPEAKERS = 10W x 2</p>
+            <p>CONTRAST RATIO = 1000:1</p>
+            <p>RESOLUTION = 1366 x 1080</p>
+            <p>SIZE = 60 cm</p>
+            <p>VGA = 1</p>
         </div>
 
-        <div class="container2 col-lg-2 col-md-4 col-sm-6 col-6 hover-1" onclick="window.open('#','mywindow');"
-            style="cursor: pointer;">
-            <img src="CategoryImages/TV2.png" alt="SMART TV IMAGE" class="category-image">
-            <a href="#">TLD-5510 SMART 4K LED TV 124 cm (49 Inches) BLACK (2019 MODEL)</a>
-            <h2 class="price">
-                <span style="font-family:Verdana, Geneva, Tahoma, sans-serif;">₹</span>49,999
-            </h2>
+        <div class="container1 col-lg-3 col-md-5" onclick="window.open('#','mywindow');" style="cursor: pointer;">
+            <img src="CategoryImages/TV1.png" alt="LED TV IMAGE" class="category-image">
+            <p>Remote Controlled</p>
+            <p>BUILT IN SPEAKERS = 10W x 2</p>
+            <p>CONTRAST RATIO = 1000:1</p>
+            <p>RESOLUTION = 1366 x 1080</p>
+            <p>SIZE = 60 cm</p>
+            <p>VGA = 1</p>
         </div>
 
-        <div class="container2 col-lg-2 col-md-4 col-sm-6 col-6 hover-1" onclick="window.open('#','mywindow');"
-            style="cursor: pointer;">
-            <img src="CategoryImages/TV2.png" alt="SMART TV IMAGE" class="category-image">
-            <a href="#">TLD-5510 SMART 4K LED TV 124 cm (49 Inches) BLACK (2019 MODEL)</a>
-            <h2 class="price">
-                <span style="font-family:Verdana, Geneva, Tahoma, sans-serif;">₹</span>49,999
-            </h2>
+        <div class="container1 col-lg-3 col-md-5" onclick="window.open('#','mywindow');" style="cursor: pointer;">
+            <img src="CategoryImages/TV1.png" alt="LED TV IMAGE" class="category-image">
+            <p>Remote Controlled</p>
+            <p>BUILT IN SPEAKERS = 10W x 2</p>
+            <p>CONTRAST RATIO = 1000:1</p>
+            <p>RESOLUTION = 1366 x 1080</p>
+            <p>SIZE = 60 cm</p>
+            <p>VGA = 1</p>
         </div>
 
-        <div class="container2 col-lg-2 col-md-4 col-sm-6 col-6 hover-1" onclick="window.open('#','mywindow');"
-            style="cursor: pointer;">
-            <img src="CategoryImages/TV2.png" alt="SMART TV IMAGE" class="category-image">
-            <a href="#">TLD-5510 SMART 4K LED TV 124 cm (49 Inches) BLACK (2019 MODEL)</a>
-            <h2 class="price">
-                <span style="font-family:Verdana, Geneva, Tahoma, sans-serif;">₹</span>49,999
-            </h2>
+        <div class="container1 col-lg-3 col-md-5" onclick="window.open('#','mywindow');" style="cursor: pointer;">
+            <img src="CategoryImages/TV1.png" alt="LED TV IMAGE" class="category-image">
+            <p>Remote Controlled</p>
+            <p>BUILT IN SPEAKERS = 10W x 2</p>
+            <p>CONTRAST RATIO = 1000:1</p>
+            <p>RESOLUTION = 1366 x 1080</p>
+            <p>SIZE = 60 cm</p>
+            <p>VGA = 1</p>
         </div>
 
-        <div class="container2 col-lg-2 col-md-4 col-sm-6 col-6 hover-1" onclick="window.open('#','mywindow');"
-            style="cursor: pointer;">
-            <img src="CategoryImages/TV2.png" alt="SMART TV IMAGE" class="category-image">
-            <a href="#">TLD-5510 SMART 4K LED TV 124 cm (49 Inches) BLACK (2019 MODEL)</a>
-            <h2 class="price">
-                <span style="font-family:Verdana, Geneva, Tahoma, sans-serif;">₹</span>49,999
-            </h2>
+        <div class="container1 col-lg-3 col-md-5" onclick="window.open('#','mywindow');" style="cursor: pointer;">
+            <img src="CategoryImages/TV1.png" alt="LED TV IMAGE" class="category-image">
+            <p>Remote Controlled</p>
+            <p>BUILT IN SPEAKERS = 10W x 2</p>
+            <p>CONTRAST RATIO = 1000:1</p>
+            <p>RESOLUTION = 1366 x 1080</p>
+            <p>SIZE = 60 cm</p>
+            <p>VGA = 1</p>
         </div>
     </div>
 
-    <!-- To define all the details -->
-    <div class="allDetails" id="allDetail">
-        <h1>Technical Details</h1>
-        <table class="table detailsTable">
-            <tbody>
-                <tr>
-                    <th scope="row">Brand</th>
-                    <td>Astorianz</td>
-                </tr>
-                <tr>
-                    <th scope="row">Manufaturer</th>
-                    <td>Astorianz</td>
-                </tr>
-                <tr>
-                    <th scope="row">Model</th>
-                    <td>Smart TV</td>
-                </tr>
-                <tr>
-                    <th scope="row">Model Name</th>
-                    <td>TLD 5510</td>
-                </tr>
-                <tr>
-                    <th scope="row">Model Year</th>
-                    <td>2019</td>
-                </tr>
-                <tr>
-                    <th scope="row">Special Feature</th>
-                    <td>Smart TV Andoird TV: World of endless entertainment | 4K X-Reality Pro: Best clarity ever
-                    </td>
-                </tr>
-                <tr>
-                    <th scope="row">Number of items</th>
-                    <td>1</td>
-                </tr>
-                <tr>
-                    <th scope="row">Product Weight</th>
-                    <td>10 KG</td>
-                </tr>
-                <tr>
-                    <th scope="row">Warranty</th>
-                    <td>2 Years</td>
-                </tr>
-            </tbody>
-        </table>
+    <!-- Mobile Accessories section from here -->
+    <h1 id="mobileAccessories">Mobile Accessories</h1>
+    <div class="row eachSection">
+        <div class="container1 col-lg-3 col-md-5" onclick="window.open('#','mywindow');" style="cursor: pointer;">
+            <img src="CategoryImages/Mobile-Accessories.png" alt="Mobile-Accessories IMAGE" class="category-image">
+            <p>Earphone</p>
+            <p>Mobile Stand</p>
+            <p>OTG Cable</p>
+            <p>Screen Protector</p>
+            <p>Stylus</p>
+            <p>USB Cable</p>
+        </div>
+
+        <div class="container1 col-lg-3 col-md-5" onclick="window.open('#','mywindow');" style="cursor: pointer;">
+            <img src="CategoryImages/Mobile-Accessories.png" alt="Mobile-Accessories IMAGE" class="category-image">
+            <p>Earphone</p>
+            <p>Mobile Stand</p>
+            <p>OTG Cable</p>
+            <p>Screen Protector</p>
+            <p>Stylus</p>
+            <p>USB Cable</p>
+        </div>
+
+        <div class="container1 col-lg-3 col-md-5" onclick="window.open('#','mywindow');" style="cursor: pointer;">
+            <img src="CategoryImages/Mobile-Accessories.png" alt="Mobile-Accessories IMAGE" class="category-image">
+            <p>Earphone</p>
+            <p>Mobile Stand</p>
+            <p>OTG Cable</p>
+            <p>Screen Protector</p>
+            <p>Stylus</p>
+            <p>USB Cable</p>
+        </div>
+
+        <div class="container1 col-lg-3 col-md-5" onclick="window.open('#','mywindow');" style="cursor: pointer;">
+            <img src="CategoryImages/Mobile-Accessories.png" alt="Mobile-Accessories IMAGE" class="category-image">
+            <p>Earphone</p>
+            <p>Mobile Stand</p>
+            <p>OTG Cable</p>
+            <p>Screen Protector</p>
+            <p>Stylus</p>
+            <p>USB Cable</p>
+        </div>
+
+        <div class="container1 col-lg-3 col-md-5" onclick="window.open('#','mywindow');" style="cursor: pointer;">
+            <img src="CategoryImages/Mobile-Accessories.png" alt="Mobile-Accessories IMAGE" class="category-image">
+            <p>Earphone</p>
+            <p>Mobile Stand</p>
+            <p>OTG Cable</p>
+            <p>Screen Protector</p>
+            <p>Stylus</p>
+            <p>USB Cable</p>
+        </div>
+
+        <div class="container1 col-lg-3 col-md-5" onclick="window.open('#','mywindow');" style="cursor: pointer;">
+            <img src="CategoryImages/Mobile-Accessories.png" alt="Mobile-Accessories IMAGE" class="category-image">
+            <p>Earphone</p>
+            <p>Mobile Stand</p>
+            <p>OTG Cable</p>
+            <p>Screen Protector</p>
+            <p>Stylus</p>
+            <p>USB Cable</p>
+        </div>
+    </div>
+
+    <!-- Bluetooth Devices section from here -->
+    <h1 id="bluetoothDevices">Bluethooth Devices</h1>
+    <div class="row eachSection">
+        <div class="container1 col-lg-3 col-md-5" onclick="window.open('#','mywindow');" style="cursor: pointer;">
+            <img src="CategoryImages/bluetooth-devices.png" alt="Bluethooth Devices IMAGE" class="category-image">
+            <p>With Mic = Yes</p>
+            <p>Bluetooth version = 5.0</p>
+            <p>Wireless Range = 10 m</p>
+            <p>Warranty = 1 Year</p>
+            <p>COD = Yes</p>
+        </div>
+
+        <div class="container1 col-lg-3 col-md-5" onclick="window.open('#','mywindow');" style="cursor: pointer;">
+            <img src="CategoryImages/bluetooth-devices.png" alt="Bluethooth Devices IMAGE" class="category-image">
+            <p>With Mic = Yes</p>
+            <p>Bluetooth version = 5.0</p>
+            <p>Wireless Range = 10 m</p>
+            <p>Warranty = 1 Year</p>
+            <p>COD = Yes</p>
+        </div>
+
+        <div class="container1 col-lg-3 col-md-5" onclick="window.open('#','mywindow');" style="cursor: pointer;">
+            <img src="CategoryImages/bluetooth-devices.png" alt="Bluethooth Devices IMAGE" class="category-image">
+            <p>With Mic = Yes</p>
+            <p>Bluetooth version = 5.0</p>
+            <p>Wireless Range = 10 m</p>
+            <p>Warranty = 1 Year</p>
+            <p>COD = Yes</p>
+        </div>
+
+        <div class="container1 col-lg-3 col-md-5" onclick="window.open('#','mywindow');" style="cursor: pointer;">
+            <img src="CategoryImages/bluetooth-devices.png" alt="Bluethooth Devices IMAGE" class="category-image">
+            <p>With Mic = Yes</p>
+            <p>Bluetooth version = 5.0</p>
+            <p>Wireless Range = 10 m</p>
+            <p>Warranty = 1 Year</p>
+            <p>COD = Yes</p>
+        </div>
+
+        <div class="container1 col-lg-3 col-md-5" onclick="window.open('#','mywindow');" style="cursor: pointer;">
+            <img src="CategoryImages/bluetooth-devices.png" alt="Bluethooth Devices IMAGE" class="category-image">
+            <p>With Mic = Yes</p>
+            <p>Bluetooth version = 5.0</p>
+            <p>Wireless Range = 10 m</p>
+            <p>Warranty = 1 Year</p>
+            <p>COD = Yes</p>
+        </div>
+
+        <div class="container1 col-lg-3 col-md-5" onclick="window.open('#','mywindow');" style="cursor: pointer;">
+            <img src="CategoryImages/bluetooth-devices.png" alt="Bluethooth Devices IMAGE" class="category-image">
+            <p>With Mic = Yes</p>
+            <p>Bluetooth version = 5.0</p>
+            <p>Wireless Range = 10 m</p>
+            <p>Warranty = 1 Year</p>
+            <p>COD = Yes</p>
+        </div>
+    </div>
+
+    <!-- Washing Machine section from here -->
+    <h1 id="washingMachine">Washing Machines</h1>
+    <div class="row eachSection">
+        <div class="container1 col-lg-3 col-md-5" onclick="window.open('#','mywindow');" style="cursor: pointer;">
+            <img src="CategoryImages/Washing-Machine.png" alt="Washing Machine IMAGE" class="category-image">
+            <p>Rust Free Plastic Body</p>
+            <p>Magic Filter</p>
+            <p>Auto Restart</p>
+            <p>USB Cable</p>
+            <p>Warranty = 5 Year</p>
+            <p>COD = Yes</p>
+        </div>
+
+        <div class="container1 col-lg-3 col-md-5" onclick="window.open('#','mywindow');" style="cursor: pointer;">
+            <img src="CategoryImages/Washing-Machine.png" alt="Washing Machine IMAGE" class="category-image">
+            <p>Rust Free Plastic Body</p>
+            <p>Magic Filter</p>
+            <p>Auto Restart</p>
+            <p>USB Cable</p>
+            <p>Warranty = 5 Year</p>
+            <p>COD = Yes</p>
+        </div>
+
+        <div class="container1 col-lg-3 col-md-5" onclick="window.open('#','mywindow');" style="cursor: pointer;">
+            <img src="CategoryImages/Washing-Machine.png" alt="Washing Machine IMAGE" class="category-image">
+            <p>Rust Free Plastic Body</p>
+            <p>Magic Filter</p>
+            <p>Auto Restart</p>
+            <p>USB Cable</p>
+            <p>Warranty = 5 Year</p>
+            <p>COD = Yes</p>
+        </div>
+
+        <div class="container1 col-lg-3 col-md-5" onclick="window.open('#','mywindow');" style="cursor: pointer;">
+            <img src="CategoryImages/Washing-Machine.png" alt="Washing Machine IMAGE" class="category-image">
+            <p>Rust Free Plastic Body</p>
+            <p>Magic Filter</p>
+            <p>Auto Restart</p>
+            <p>USB Cable</p>
+            <p>Warranty = 5 Year</p>
+            <p>COD = Yes</p>
+        </div>
+
+        <div class="container1 col-lg-3 col-md-5" onclick="window.open('#','mywindow');" style="cursor: pointer;">
+            <img src="CategoryImages/Washing-Machine.png" alt="Washing Machine IMAGE" class="category-image">
+            <p>Rust Free Plastic Body</p>
+            <p>Magic Filter</p>
+            <p>Auto Restart</p>
+            <p>USB Cable</p>
+            <p>Warranty = 5 Year</p>
+            <p>COD = Yes</p>
+        </div>
+
+        <div class="container1 col-lg-3 col-md-5" onclick="window.open('#','mywindow');" style="cursor: pointer;">
+            <img src="CategoryImages/Washing-Machine.png" alt="Washing Machine IMAGE" class="category-image">
+            <p>Rust Free Plastic Body</p>
+            <p>Magic Filter</p>
+            <p>Auto Restart</p>
+            <p>USB Cable</p>
+            <p>Warranty = 5 Year</p>
+            <p>COD = Yes</p>
+        </div>
+    </div>
+
+    <!-- Geyser section from here -->
+    <h1 id="geyser">Geysers</h1>
+    <div class="row eachSection">
+        <div class="container1 col-lg-3 col-md-5" onclick="window.open('#','mywindow');" style="cursor: pointer;">
+            <img src="CategoryImages/Geyser.png" alt="Geyser IMAGE" class="category-image">
+            <p>Polymer coating</p>
+            <p>Advanced 3 level safety</p>
+            <p>Adjustable knob for temperature</p>
+            <p>Country of Origin: India</p>
+            <p>Warranty = 3 Year</p>
+            <p>COD = Yes</p>
+        </div>
+
+        <div class="container1 col-lg-3 col-md-5" onclick="window.open('#','mywindow');" style="cursor: pointer;">
+            <img src="CategoryImages/Geyser.png" alt="Geyser IMAGE" class="category-image">
+            <p>Polymer coating</p>
+            <p>Advanced 3 level safety</p>
+            <p>Adjustable knob for temperature</p>
+            <p>Country of Origin: India</p>
+            <p>Warranty = 3 Year</p>
+            <p>COD = Yes</p>
+        </div>
+
+
+        <div class="container1 col-lg-3 col-md-5" onclick="window.open('#','mywindow');" style="cursor: pointer;">
+            <img src="CategoryImages/Geyser.png" alt="Geyser IMAGE" class="category-image">
+            <p>Polymer coating</p>
+            <p>Advanced 3 level safety</p>
+            <p>Adjustable knob for temperature</p>
+            <p>Country of Origin: India</p>
+            <p>Warranty = 3 Year</p>
+            <p>COD = Yes</p>
+        </div>
+
+        <div class="container1 col-lg-3 col-md-5" onclick="window.open('#','mywindow');" style="cursor: pointer;">
+            <img src="CategoryImages/Geyser.png" alt="Geyser IMAGE" class="category-image">
+            <p>Polymer coating</p>
+            <p>Advanced 3 level safety</p>
+            <p>Adjustable knob for temperature</p>
+            <p>Country of Origin: India</p>
+            <p>Warranty = 3 Year</p>
+            <p>COD = Yes</p>
+        </div>
+
+        <div class="container1 col-lg-3 col-md-5" onclick="window.open('#','mywindow');" style="cursor: pointer;">
+            <img src="CategoryImages/Geyser.png" alt="Geyser IMAGE" class="category-image">
+            <p>Polymer coating</p>
+            <p>Advanced 3 level safety</p>
+            <p>Adjustable knob for temperature</p>
+            <p>Country of Origin: India</p>
+            <p>Warranty = 3 Year</p>
+            <p>COD = Yes</p>
+        </div>
+
+        <div class="container1 col-lg-3 col-md-5" onclick="window.open('#','mywindow');" style="cursor: pointer;">
+            <img src="CategoryImages/Geyser.png" alt="Geyser IMAGE" class="category-image">
+            <p>Polymer coating</p>
+            <p>Advanced 3 level safety</p>
+            <p>Adjustable knob for temperature</p>
+            <p>Country of Origin: India</p>
+            <p>Warranty = 3 Year</p>
+            <p>COD = Yes</p>
+        </div>
     </div>
 
     <footer>
@@ -378,26 +609,6 @@
     <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.js'></script>
     <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.js'></script>
     <script type="text/javascript" src="./landing.js"></script>
-
-    <!-- Zoom effect script -->
-    <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/164071/Drift.min.js'></script>
-    <script>
-        var productImage = document.getElementById("productImage");
-        var productDetails = document.getElementById("productDetails");
-
-        new Drift(productImage, {
-            paneContainer: productDetails,
-            inlinePane: false,
-        });
-
-        function showZoomedDiv() {
-            document.getElementById("productDetails").style.zIndex = "1000";
-        }
-
-        function removeZoomedDiv() {
-            document.getElementById("productDetails").style.zIndex = "-1000";
-        }
-    </script>
 </body>
 
 </html>
