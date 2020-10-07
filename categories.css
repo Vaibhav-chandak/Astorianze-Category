@@ -9,7 +9,7 @@ body {
     background: linear-gradient(255deg, rgba(253, 184, 86, 1) 0%, rgba(255, 248, 114, 1) 23%, rgba(65, 221, 253, 1) 100%);
 }
 
-p{
+p {
     margin: auto;
 }
 
@@ -33,16 +33,16 @@ h1 {
     width: auto;
     text-align: center;
     transition: .5s ease;
-  }
+}
 
-  .container1:hover {
+.container1:hover {
     border-radius: 20%;
     transition: .5s ease;
-  }
+}
 
-  p:hover {
-      color: black;
-  }
+p:hover {
+    color: black;
+}
 
 .category-image {
     width: 100%;
@@ -55,4 +55,4 @@ h1 {
         width: 70%;
         margin: 7% auto;
     }
-  }
+}
